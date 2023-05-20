@@ -1,0 +1,90 @@
+:root{
+    /* Cores de fundo */
+    --bkmain-color: rgb(41,39,39);
+    --bkSecond-color: rgb(211,211,211);
+    /* Cores de letras */
+    --main-color: rgb(0,0,0);
+    --second-color: rgb(255,255,255);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pageTitle{
+    text-align: center;
+    padding:10px;
+    background-color: var(--bkSecond-color);   
+}
+
+h1{
+    font-family: 'Nanum Brush Script', cursiva;
+    font-size: 5em;
+}
+
+#presentationGallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/images.png);
+    
+}
+
+#presentationGallery img{
+    width: 300px;
+    height: 400px;
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+}
+
+#rodape{
+    text-align: center;
+    align-items: center;
+    color: var(--second-color);
+    background-color: var(--bkmain-color);
+}
+
+
+#btnPaw{
+    border-radius: 10%;
+    border: none;
+    padding: 2px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    font-family: 'Nanum Brush Script', cursiva;
+    color: var(--second-color);
+    background-color: var(--bkmain-color);
+    
+}
+
+
+#rodape>p{
+    padding-bottom: 13px;
+    text-decoration: underline;
+    font-size: 1em;
+    font-family: 'Nanum Brush Script', cursiva;
+}
+
+#lineLinks{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    
+}
+.paw{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+
+nav img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
